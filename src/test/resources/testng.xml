@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Usha 1st Project">
+	<listeners>
+		<listener class-name = "com.web.listeners.IAnnotationTransformerClass"></listener>
+		<listener class-name = "com.web.listeners.MyListeners"></listener>
+	</listeners>
+  <test thread-count="5" name="Luma Website">
+    <classes>
+		   <class name="com.web.base.Base"/>
+		   <class name="com.web.tests.RegisterTest"/>
+      <class name="com.web.tests.LoginTest"/>
+      <class name = "com.web.tests.SearchTest"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
