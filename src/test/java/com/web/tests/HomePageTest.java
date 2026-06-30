@@ -12,7 +12,7 @@ import com.web.pages.LoginPage;
 import com.web.pages.RegisterPage;
 import com.web.pages.WebsiteHomePage;
 
-//home page test class
+//home page test class - new
 public class HomePageTest extends Base {
 
 	public WebDriver driver;
